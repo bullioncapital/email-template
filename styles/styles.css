@@ -1,0 +1,8 @@
+.section {
+  border: 25px solid #d1d3d4;
+}
+
+.section-divider {
+  font-size: 22px;
+  line-height: 22px;
+}
