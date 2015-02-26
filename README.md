@@ -9,10 +9,10 @@ Run `gulp` build to inline styles and minify images
 
 ## Resources
 
-[Zurb ink docs](http://zurb.com/ink/docs.php)
-[Zurb ink](http://zurb.com/ink/inliner.php) (if you have issues with the gulp task)
-[Zurb ink templates](http://zurb.com/ink/templates.php)
-[Email Client Supported CSS](http://templates.mailchimp.com/resources/email-client-css-support/)
+- [Zurb ink docs](http://zurb.com/ink/docs.php)
+- [Zurb ink](http://zurb.com/ink/inliner.php) (if you have issues with the gulp task)
+- [Zurb ink templates](http://zurb.com/ink/templates.php)
+- [Email Client Supported CSS](http://templates.mailchimp.com/resources/email-client-css-support/)
 
 ## Creating a new email project
 
