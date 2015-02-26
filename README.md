@@ -4,8 +4,8 @@ The base mailchimp email template
 
 ## Commands
 
-Run `gulp` to start a local server on port 8080 with livereload enabled
-Run `gulp` build to inline styles and minify images
+- Run `gulp` to start a local server on port 8080 with livereload enabled
+- Run `gulp build` to inline styles and minify images
 
 ## Resources
 
