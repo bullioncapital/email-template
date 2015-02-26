@@ -14,11 +14,11 @@ Run `gulp` build to inline styles and minify images
 - [Zurb ink templates](http://zurb.com/ink/templates.php)
 - [Email Client Supported CSS](http://templates.mailchimp.com/resources/email-client-css-support/)
 
-## Creating a new email project
+## Creating simlilar email projects
 
 This project was created using [generator-zurb-ink](https://github.com/BNJ/generator-zurb-ink)
 
-To create up a new project, install yeoman and the generator
+To create up a new project simliar to this one, install yeoman and the generator
 
 ```
 npm install -g yo
