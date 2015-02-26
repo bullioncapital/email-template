@@ -1,8 +1,47 @@
-.section {
-  border: 25px solid #d1d3d4;
+body, table.body {
+  background-color: #b0b2b4;
 }
 
-.section-divider {
-  font-size: 22px;
-  line-height: 22px;
+.header td {
+  padding-bottom: 0;
+}
+
+.section td {
+  background-color: #ffffff;
+  border-color: #d1d3d4;
+  border-width: 25px;
+  border-style: solid;
+}
+
+.section-divider td {
+  font-size: 2px;
+  line-height: 2px;
+}
+
+.section-divider-white td {
+  display: block;
+
+  background-color: #ffffff;
+
+  border-left-width: 25px;
+  border-right-width: 25px;
+
+  border-left-color: #b0b2b4;
+  border-right-color: #b0b2b4;
+
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+.vertical-padding-none td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+.padding-none td {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
