@@ -14,7 +14,7 @@ Run `gulp` build to inline styles and minify images
 - [Zurb ink templates](http://zurb.com/ink/templates.php)
 - [Email Client Supported CSS](http://templates.mailchimp.com/resources/email-client-css-support/)
 
-## Creating simlilar email projects
+## Creating similar email projects
 
 This project was created using [generator-zurb-ink](https://github.com/BNJ/generator-zurb-ink)
 
