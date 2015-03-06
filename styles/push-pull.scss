@@ -1,0 +1,8 @@
+@media only screen and (max-width: 640px)  {
+    /*body[yahoo] .push-pull-grid {width:440px!important; }*/
+
+    body[yahoo] .push-pull-cell {
+        display:block;
+        width:100%;
+    }
+}

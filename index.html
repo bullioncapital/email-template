@@ -4,82 +4,167 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width"/>
 
-    <link inline rel="stylesheet" href="bower_components/ink/css/ink.css">
-    <link inline rel="stylesheet" href="build/css/styles.css">
+    <link inline rel="stylesheet" href="bower_components/ink/css/ink.css" />
+    <link inline rel="stylesheet" href="build/css/styles.css" />
   </head>
-  <body>
+  <body yahoo="fix">
     <table class="body">
+      <tr class="header">
+        <td>
+          <table cellpadding="0" cellspacing="0" border="0" height="160" width="100%">
+            <tr>
+              <td class="center" align="center" background="/images/header_background.png" bgcolor="#1e1d20" valign="top">
+                <!--[if gte mso 9]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:205px;">
+                <v:fill type="tile" src="/images/header_background.png" color="#1e1d20" />
+                <v:textbox inset="0,0,0,0">
+                <![endif]-->
+                <center>
+                  <table class="container">
+                    <tr><td height="42" colspan="3"></td></tr>
+                    <tr class="row-logo">
+                      <td>
+                        <img height="93" width="10" src="images/header-left.png" alt="" />
+                      </td>
+                      <td align="center">
+                        <img height="93" src="images/header.png" alt="Bullion Capital" />
+                      </td>
+                      <td width="10">
+                        <img height="93" width="10" src="images/header-right.png" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="market-wrap-header" colspan="3" lign="center" valign="middle" height="25" width="100%">
+                        <span>MARKET WRAP</span>
+                      </td>
+                    </tr>
+                  </table>
+                </center>
+                <!--[if gte mso 9]>
+                </v:textbox>
+                </v:rect>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="expander"></td>
+      </tr>
       <tr>
         <td class="center" align="center" valign="top">
           <center>
             <table class="container">
               <tr>
-                <td>
-                  <table class="block-grid">
-                    <tr class="header">
+                <td width="100%">
+                  <!-- http://stackoverflow.com/questions/10851318/is-it-possible-to-use-displayblock-on-td-in-html-email-to-achieve-responsive-t/18545107#18545107 -->
+                  <table class="push-pull-grid" dir="rtl"  width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+                    <tr>
+                      <td width="40%" dir="ltr" align="right" class="push-pull-cell">
+                        <table class="block-grid two-up">
+                          <tr class="market-stats">
+                            <td class="market-stats">
+                              <div class="market-title gold">GOLD</div>
+                              <div class="market-text">XAU: 1212.00 <span class="market-loss">-5.90 (-0.5%)</span></div>
+                              <div class="market-text">XAU AUD: 1550.67 <span class="market-loss">-5.79 (-0.4%)</span></div>
+                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
+                              <div class="market-title silver">SILVER</div>
+                              <div class="market-text">XAG 16.58 <span class="market-gain">+0.17 (+1.0%)</span></div>
+                              <div class="market-text">XAU AUD: 21.21 <span class="market-gain">+0.24 (+1.4%)</span></div>
+                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
+                              <div class="market-title plat">PLATINUM</div>
+                              <div class="market-text">XAG 16.58 <span class="market-gain">+0.17 (+1.0%)</span></div>
+                              <div class="market-text">XAU AUD: 21.21 <span class="market-gain">+0.24 (+1.4%)</span></div>
+                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
+                              <span class="disclaimer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td width="60%" dir="ltr" align="left" class="push-pull-cell section section-dark">
+                        Weekly breakdown
+                        <table cellpadding="2" cellspacing="2" border="0">
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                          <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%">
+                  <table>
+                    <tr height="44">
+                      <td width="10"></td>
+                      <td class="commentary-title">
+                        WEEKLY COMMENTARY
+                      </td>
+                      <td width="10"></td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td width="10"></td>
+                      <td></td>
+                      <td width="10"></td>
+                    </tr>
+                    <tr class="commentary-cell">
+                      <td width="10"></td>
+                      <td class="commentary-text">
+                        Image credits: Image Url ...
+                        Click on image to enlarge
+
+                        Deflation might also be coming to the UK - and it could have a huge impact on business. Inflation rates are heading below 1pc in the UK the lowest level in modern times.
+
+                        All of this could affect the psychology of how markets work and adjustments would need to be made. Markets will have to stop expecting companies to increase sales year-on-year. Expectations for rising interest rates will be on hold for a very long time. Firms and individuals will become nervous of debt. Governments will be fearful of debt as debt to GDP ratios rise.  Small companies will win over majors.
+
+                        Source: www.abcdefg.com
+                      </td>
+                      <td width="10"></td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td width="10"></td>
+                      <td></td>
+                      <td width="10"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%">
+                  <table>
+                    <tr>
                       <td>
-                        <img height="205" width="800" src="images/metaldesk_header.png">
 
                       </td>
-                      <td class="expander"></td>
-                    </tr>
-                    <tr class="section">
                       <td>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet turpis sed auctor euismod. Quisque mollis tincidunt nisi, et pellentesque sem tempor quis. Donec pharetra lacinia nisl, vitae condimentum quam pulvinar iaculis. Mauris in diam vitae felis facilisis aliquam. Phasellus ut dictum velit. Fusce at accumsan tellus. Integer et imperdiet lacus. Ut nec augue at justo dictum scelerisque vehicula at erat. Mauris sed odio mauris. Aliquam elementum dignissim neque quis lacinia. Nullam sollicitudin dolor in lorem malesuada ultricies.
-                      </td>
-                    </tr>
-                    <tr class="section-divider">
-                      <td>
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr class="section">
-                      <td>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet turpis sed auctor euismod. Quisque mollis tincidunt nisi, et pellentesque sem tempor quis. Donec pharetra lacinia nisl, vitae condimentum quam pulvinar iaculis. Mauris in diam vitae felis facilisis aliquam. Phasellus ut dictum velit. Fusce at accumsan tellus. Integer et imperdiet lacus. Ut nec augue at justo dictum scelerisque vehicula at erat. Mauris sed odio mauris. Aliquam elementum dignissim neque quis lacinia. Nullam sollicitudin dolor in lorem malesuada ultricies.
-                      </td>
-                    </tr>
-                    <tr class="section-divider">
-                      <td>
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr class="vertical-padding-none">
-                      <td>
-
-                        <img height="69" width="800" src="images/metaldesk_ad.png">
-
-                      </td>
-                      <td class="expander"></td>
-                    </tr>
-                    <tr class="section-divider">
-                      <td>
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr class="section">
-                      <td>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet turpis sed auctor euismod. Quisque mollis tincidunt nisi, et pellentesque sem tempor quis. Donec pharetra lacinia nisl, vitae condimentum quam pulvinar iaculis. Mauris in diam vitae felis facilisis aliquam. Phasellus ut dictum velit. Fusce at accumsan tellus. Integer et imperdiet lacus. Ut nec augue at justo dictum scelerisque vehicula at erat. Mauris sed odio mauris. Aliquam elementum dignissim neque quis lacinia. Nullam sollicitudin dolor in lorem malesuada ultricies.
-                      </td>
-                    </tr>
-                    <tr class="section-divider">
-                      <td>
-                        &nbsp;
-                      </td>
-                    </tr>
-                    <tr class="article-header padding-none">
-                      <td>
-                        <img height="69" width="800" src="images/article_header.png">
-                      </td>
-                      <td class="expander"></td>
-                    </tr>
-                    <tr class="section">
-                      <td>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet turpis sed auctor euismod. Quisque mollis tincidunt nisi, et pellentesque sem tempor quis. Donec pharetra lacinia nisl, vitae condimentum quam pulvinar iaculis. Mauris in diam vitae felis facilisis aliquam. Phasellus ut dictum velit. Fusce at accumsan tellus. Integer et imperdiet lacus. Ut nec augue at justo dictum scelerisque vehicula at erat. Mauris sed odio mauris. Aliquam elementum dignissim neque quis lacinia. Nullam sollicitudin dolor in lorem malesuada ultricies.
-                      </td>
-                    </tr>
-                    <tr class="section-divider">
-                      <td>
-                        &nbsp;
+                        <div>OIL PRICE WAR IS PAYING OFF</div>
+                        <div>Deflation might also be coming to the UK - and it could have a huge impact on business....</div>
+                        <div>Read more</div>
                       </td>
                     </tr>
                   </table>
@@ -87,6 +172,82 @@
               </tr>
             </table>
           </center>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" border="0" height="134" width="100%">
+            <tr>
+              <td class="center" align="center" background="/images/footer_background.png" bgcolor="#1e1d20" valign="top">
+                <!--[if gte mso 9]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:205px;">
+                <v:fill type="tile" src="/images/footer_background.png" color="#1e1d20" />
+                <v:textbox inset="0,0,0,0">
+                <![endif]-->
+                <center>
+                  <table class="container">
+                    <tr><td height="30"></td></tr>
+                    <tr>
+                      <td class="social-header" align="center" valign="middle" height="26">
+                        KEEP UP TO DATE
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <table class="block-grid social-table">
+                          <tr>
+                            <td>
+                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
+                                <img height="49" width="49" src="images/facebook.png" alt="" />
+                              </a>
+                            </td><td> <!-- Make sure the tags are directly next to each other -->
+                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
+                                <img height="49" width="49" src="images/twitter.png" alt="" />
+                              </a>
+                            </td><td> <!-- Make sure the tags are directly next to each other -->
+                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
+                                <img height="49" width="49" src="images/linkedin.png" alt="" />
+                              </a>
+                            </td><td> <!-- Make sure the tags are directly next to each other -->
+                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
+                                <img height="49" width="49" src="images/mail.png" alt="" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </center>
+                <!--[if gte mso 9]>
+                </v:textbox>
+                </v:rect>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="expander"></td>
+      </tr>
+      <tr class="disclaimer-row">
+        <td>
+          <table cellpadding="0" cellspacing="0" border="0" height="204" width="100%">
+            <tr>
+              <td class="center disclaimer-text" align="center">
+                <center>
+                  <table class="container">
+                    <tr><td height="12"></td></tr>
+                    <tr>
+                      <td class="disclaimer-text">
+                        Disclaimer The information contained in this publication is intended to be general in nature and is not personal financial advice. This is not a solicitation and does not take into account your objectives, financial situation and needs. Before acting on any information you should seek independent financial advice. This publication has been prepared based upon information believed to be reliable. Bullion Capital does not represent that this material is accurate, complete and up to date, and accepts no liability if it is not. This publication reflects the views of the author only and does not necessarily reflect the official view of Bullion Capital.
+                      </td>
+                    </tr>
+                    <tr><td height="30"></td></tr>
+                  </table>
+                </center>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>

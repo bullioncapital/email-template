@@ -1,47 +1,102 @@
+@import "push-pull.scss";
+
+$body-bg-color: #222024;
+$gold: #F7931D;
+$silver: #ffffff;
+$plat: #ffffff;
+
+$logo-bg: #f1f1f2;
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  font-family: "Tahoma";
+}
+
 body, table.body {
-  background-color: #b0b2b4;
+  background-color: $body-bg-color;
 }
 
-.header td {
-  padding-bottom: 0;
+.gold {
+  color: $gold;
 }
 
-.section td {
-  background-color: #ffffff;
-  border-color: #d1d3d4;
-  border-width: 25px;
-  border-style: solid;
+.silver {
+  color: $silver;
 }
 
-.section-divider td {
-  font-size: 2px;
-  line-height: 2px;
+.plat {
+  color: $plat;
 }
 
-.section-divider-white td {
-  display: block;
-
-  background-color: #ffffff;
-
-  border-left-width: 25px;
-  border-right-width: 25px;
-
-  border-left-color: #b0b2b4;
-  border-right-color: #b0b2b4;
-
-  border-left-style: solid;
-  border-right-style: solid;
+.row-logo {
+  background-color: $logo-bg;
 }
 
-.vertical-padding-none td {
-  padding-top: 0px;
-  padding-bottom: 0px;
+$market-stats-bg: #2b3246;
+$market-stats-fg: #939597;
+$market-loss: #F05A28;
+$market-gain: #D6DF23;
+$market-disclaimer: #BBBDC0;
+.market-wrap-header {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
+.market-stats {
+  background-color: $market-stats-bg;
+  color: $market-stats-fg;
+}
 
-.padding-none td {
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
+.market-title {
+
+}
+
+$dark-bg: #373539;
+$dark-fg: #b7b7b7;
+$dark-secondary: #515050;
+.section.section-dark {
+  background-color: $dark-bg;
+  color: $dark-fg;
+}
+
+.commentary-title {
+  color: #ffffff;
+  line-height: 43px;
+
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.commentary-cell {
+  background: #ffffff;
+}
+
+.commentary-text {
+  color: #939597;
+}
+
+.social-header {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
+}
+
+.social-table {
+  max-width: 280px;
+  margin: auto;
+}
+
+.disclaimer-row {
+ background: #000000;
+}
+
+.disclaimer-text {
+  color: #ffffff;
 }
