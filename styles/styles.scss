@@ -106,6 +106,9 @@ $market-disclaimer: #BBBDC0;
 }
 
 
+.market-stats-table.two-up tr {
+  display:inline-block;
+}
 
 .market-stats-table.two-up td {
   width: 230px;
@@ -229,6 +232,7 @@ $mediabox-image-size: 105px;
 }
 
 .social-header {
+  padding-top:34px;
   color: #ffffff;
   font-size: 30px;
   text-align: center;
