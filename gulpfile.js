@@ -56,7 +56,7 @@ gulp.task('watch', function() {
 
 gulp.task('clean', require('del').bind(null, [paths.dist]));
 
-gulp.task('build', ['sass', 'inline', 'imagemin']);
+gulp.task('build', [ 'sass', 'inline']);
 
 gulp.task('default', ['sass', 'connect', 'watch']);
 

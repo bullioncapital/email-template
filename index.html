@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
 
     <link inline rel="stylesheet" href="bower_components/ink/css/ink.css" />
     <link inline rel="stylesheet" href="build/css/styles.css" />
@@ -13,31 +13,162 @@
         <td>
           <table cellpadding="0" cellspacing="0" border="0" height="160" width="100%">
             <tr>
-              <td class="center" align="center" background="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/7c5e12ee-75b0-4667-b9c7-2ba646237a57.png" bgcolor="#1e1d20" valign="top">
+              <td class="center" align="center" background="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/3c02892f-552e-4131-9390-fee5abc2ded1.png" bgcolor="#1e1d20" valign="top">
                 <!--[if gte mso 9]>
                 <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:205px;">
-                <v:fill type="tile" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/7c5e12ee-75b0-4667-b9c7-2ba646237a57.png" color="#1e1d20" />
+                <v:fill type="tile" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/3c02892f-552e-4131-9390-fee5abc2ded1.png" color="#1e1d20" />
                 <v:textbox inset="0,0,0,0">
                 <![endif]-->
                 <center>
                   <table class="container">
-                    <tr><td height="42" colspan="5"></td></tr>
+                    <tr><td height="62" colspan="5"></td></tr>
                     <tr>
-                      <td width="7">
+                      <td width="7" class="corner-left">
                         <img height="93" width="7" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/4fb7cfbc-b0d4-4588-b5a5-e18eb9cffe1a.png" alt="" />
                       </td>
                       <td class="header"></td>
-                      <td class="header" width="166">
+                      <td class="header valign-middle" width="166">
                         <img class="logo" height="67" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/d7da4e97-b83e-429c-807a-a1cb12e885d4.png" alt="Bullion Capital" />
                       </td>
                       <td class="header"></td>
-                      <td width="7">
+                      <td width="7" class="corner-right">
                         <img height="93" width="7" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/66eb9c01-1a14-49d0-98a9-2d20f8166bb7.png" alt="" />
                       </td>
                     </tr>
                     <tr>
-                      <td class="market-wrap-header" colspan="5" align="center" valign="middle" height="25">
+                      <td class="market-wrap-header" colspan="5" align="center" valign="middle" height="30">
                         <span>MARKET WRAP</span>
+                      </td>
+                    </tr>
+                  </table>
+                   <!-- http://stackoverflow.com/questions/10851318/is-it-possible-to-use-displayblock-on-td-in-html-email-to-achieve-responsive-t/18545107#18545107 -->
+                  <table class="market-table push-pull-grid container" dir="rtl"  width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
+                    <tr>
+                      <td width="30%" dir="ltr" align="right" class="push-pull-cell market-stats-td">
+                        <table class="market-stats-table block-grid two-up" width="200">
+                          <tr class="market-stats">
+                            <td>
+                              <table class="bullion-area">
+                                <tr>
+                                  <td class="market-title gold">
+                                    GOLD
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">XAU: 1212.00 <span class="market-loss">-5.90 (-0.5%)</span></td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">
+                                    XAU AUD: 1550.67 <span class="market-loss">-5.79 (-0.4%)</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <table class="bullion-area">
+                                <tr>
+                                  <td class="market-title silver">
+                                    SILVER
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">XAG 16.58 <span class="market-gain">+0.17 (+1.0%)</span></td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">
+                                    XAU AUD: 21.21 <span class="market-gain">+0.24 (+1.4%)</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <table class="bullion-area">
+                                <tr>
+                                  <td class="market-title plat">
+                                    PLATINUM
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">XPT: 1183.90 <span class="market-gain">+19.90 (+1.7%)</span></td>
+                                </tr>
+                                <tr>
+                                  <td class="market-text">
+                                    XAU AUD: 1514.71 <span class="market-gain">+24.71 (+1.7%)</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td> <!-- Make sure the tags are directly next to each other -->
+                              <table class="bullion-area">
+                                <tr>
+                                  <td class="market-disclaimer-holder">
+                                    <span class="market-disclaimer">*Prices are current at time of writing. Change is for the last week ending **date**. Please click here for live product pricing</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td width="70%" dir="ltr" align="left" class="push-pull-cell section section-dark">
+                        <table cellpadding="2" cellspacing="2" border="0">
+                          <tr height="52">
+                            <td width="10"></td>
+                            <td class="valign-middle" colspan="4"><span class="breakdown-header">Weekly breakdown</span></td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >Forexmanates: Bullion Capital on Track to Revamp the Physical Gold Market</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text"  valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >Bloomberg: Greece vs. Europe: Who Won?</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text"  valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >The Age: Australia almost top in world ranking of retiree welfare</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text"  valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >Reuters: Australia's gold output at decard high as miners cash in on currency drop</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text"  valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >MineWeb: Blatinum price puzzles</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr>
+                            <td width="10"></td>
+                            <td width="10"></td>
+                            <td class="breakdown-text"  valign="top">&bull;</td>
+                            <td width="10"></td>
+                            <td class="breakdown-text" >The Australian: Royalty hike will kill gold sector, industry warns Barnett</td>
+                            <td width="10"></td>
+                          </tr>
+                          <tr height="20">
+                            <td></td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
@@ -58,87 +189,46 @@
             <table class="container">
               <tr>
                 <td width="100%">
-                  <!-- http://stackoverflow.com/questions/10851318/is-it-possible-to-use-displayblock-on-td-in-html-email-to-achieve-responsive-t/18545107#18545107 -->
-                  <table class="market-table push-pull-grid" dir="rtl"  width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
-                    <tr>
-                      <td width="30%" dir="ltr" align="right" class="push-pull-cell">
-                        <table class="market-stats-table block-grid two-up" width="200">
-                          <tr class="market-stats">
-                            <td class="market-stats">
-                              <div class="market-title gold">GOLD</div>
-                              <div class="market-text">XAU: 1212.00 <span class="market-loss">-5.90 (-0.5%)</span></div>
-                              <div class="market-text">XAU AUD: 1550.67 <span class="market-loss">-5.79 (-0.4%)</span></div>
-                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
-                              <div class="market-title silver">SILVER</div>
-                              <div class="market-text">XAG 16.58 <span class="market-gain">+0.17 (+1.0%)</span></div>
-                              <div class="market-text">XAU AUD: 21.21 <span class="market-gain">+0.24 (+1.4%)</span></div>
-                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
-                              <div class="market-title plat">PLATINUM</div>
-                              <div class="market-text">XAG 16.58 <span class="market-gain">+0.17 (+1.0%)</span></div>
-                              <div class="market-text">XAU AUD: 21.21 <span class="market-gain">+0.24 (+1.4%)</span></div>
-                            </td><td class="market-stats"> <!-- Make sure the tags are directly next to each other -->
-                              <span class="market-disclaimer">*Prices are current at time of writing. Change is for the last week ending **date**. Please click here for live product pricing</span>
+                 
+                </td>
+              </tr>
+              <tr>
+                <td width="100%">
+                  <table>
+                    <tr height="44">
+                      <td class="valign-middle commentary-title commentary-common">
+                        WEEKLY COMMENTARY
+                      </td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td class="commentary-image" height="200"></td>
+                    </tr>
+                    <tr class="commentary-cell">
+                      <td class="commentary-text">
+                        <table>
+                          <tr>
+                            <td class="commentary-common small-text">Image credits: Image Url ...<br/>Click on image to enlarge</td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common">
+                              Deflation might also be coming to the UK - and it could have a huge impact on business. Inflation rates are heading below 1pc in the UK the lowest level in modern times.
                             </td>
                           </tr>
-                        </table>
+                          <tr>
+                            <td class="commentary-common">
+                              All of this could affect the psychology of how markets work and adjustments would need to be made. Markets will have to stop expecting companies to increase sales year-on-year. Expectations for rising interest rates will be on hold for a very long time. Firms and individuals will become nervous of debt. Governments will be fearful of debt as debt to GDP ratios rise.  Small companies will win over majors.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common small-text">
+                              Source: www.abcdefg.com
+                            </td>
+                          </tr>
+                        </table>  
                       </td>
-                      <td width="70%" dir="ltr" align="left" class="push-pull-cell section section-dark">
-                        <table cellpadding="2" cellspacing="2" border="0">
-                          <tr height="40">
-                            <td width="10"></td>
-                            <td class="valign-middle" colspan="4"><span class="breakdown-header">Weekly breakdown</span></td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text" valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >Forexmanates: Bullion Capital on Track to Revamp the Physical Gold Market</td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text"  valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >Bloomberg: Greece vs. Europe: Who Won?</td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text"  valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >The Age: Australia almost top in world ranking of retiree welfare</td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text"  valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >Reuters: Australia's gold output at decard high as miners cash in on currency drop</td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text"  valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >MineWeb: Blatinum price puzzles</td>
-                            <td width="10"></td>
-                          </tr>
-                          <tr>
-                            <td width="10"></td>
-                            <td width="10"></td>
-                            <td class="breakdown-text"  valign="top">&bull;</td>
-                            <td width="5"></td>
-                            <td class="breakdown-text" >The Australian: Royalty hike will kill gold sector, industry warns Barnett</td>
-                            <td width="10"></td>
-                          </tr>
-                        </table>
-                      </td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td></td>
                     </tr>
                   </table>
                 </td>
@@ -147,33 +237,116 @@
                 <td width="100%">
                   <table>
                     <tr height="44">
-                      <td width="10"></td>
-                      <td class="valign-middle commentary-title">
-                        WEEKLY COMMENTARY
+                      <td class="valign-middle commentary-title commentary-common">
+                        TECHNICAL
                       </td>
-                      <td width="10"></td>
                     </tr>
                     <tr class="commentary-cell" height="10">
-                      <td width="10"></td>
-                      <td></td>
-                      <td width="10"></td>
+                      <td class="commentary-image" height="200"></td>
                     </tr>
                     <tr class="commentary-cell">
-                      <td width="10"></td>
                       <td class="commentary-text">
-                        <div>Image credits: Image Url ...<br/>Click on image to enlarge</div>
-
-                        Deflation might also be coming to the UK - and it could have a huge impact on business. Inflation rates are heading below 1pc in the UK the lowest level in modern times.
-
-                        All of this could affect the psychology of how markets work and adjustments would need to be made. Markets will have to stop expecting companies to increase sales year-on-year. Expectations for rising interest rates will be on hold for a very long time. Firms and individuals will become nervous of debt. Governments will be fearful of debt as debt to GDP ratios rise.  Small companies will win over majors.
-
-                        Source: www.abcdefg.com
+                        <table>
+                          <tr>
+                            <td class="commentary-common small-text">Image credits: Image Url ...<br/>Click on image to enlarge</td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common">
+                              Deflation might also be coming to the UK - and it could have a huge impact on business. Inflation rates are heading below 1pc in the UK the lowest level in modern times.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common">
+                              All of this could affect the psychology of how markets work and adjustments would need to be made. Markets will have to stop expecting companies to increase sales year-on-year. Expectations for rising interest rates will be on hold for a very long time. Firms and individuals will become nervous of debt. Governments will be fearful of debt as debt to GDP ratios rise.  Small companies will win over majors.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common small-text">
+                              Source: www.abcdefg.com
+                            </td>
+                          </tr>
+                        </table>  
+                      </td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%">
+                  <table>
+                    <tr height="44">
+                      <td class="valign-middle commentary-title commentary-common">
+                        FUNDAMENTAL
+                      </td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td class="commentary-image" height="200"></td>
+                    </tr>
+                    <tr class="commentary-cell">
+                      <td class="commentary-text">
+                        <table>
+                          <tr>
+                            <td class="commentary-common small-text">Image credits: Image Url ...<br/>Click on image to enlarge</td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common">
+                              Deflation might also be coming to the UK - and it could have a huge impact on business. Inflation rates are heading below 1pc in the UK the lowest level in modern times.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common">
+                              All of this could affect the psychology of how markets work and adjustments would need to be made. Markets will have to stop expecting companies to increase sales year-on-year. Expectations for rising interest rates will be on hold for a very long time. Firms and individuals will become nervous of debt. Governments will be fearful of debt as debt to GDP ratios rise.  Small companies will win over majors.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="commentary-common small-text">
+                              Source: www.abcdefg.com
+                            </td>
+                          </tr>
+                        </table>  
+                      </td>
+                    </tr>
+                    <tr class="commentary-cell" height="10">
+                      <td></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%">
+                  <table class="mediabox-table">
+                    <tr height="20">
+                      <td width="10"></td>
+                    </tr>
+                    <tr>
+                      <td width="10"></td>
+                      <td width="105" height="105">
+                        <div class="mediabox-image"></div>
+                      </td>
+                      <td width="15"></td>
+                      <td class="valign-middle">
+                        <table>
+                          <tr>
+                            <td class="mediabox-text mediabox-title">OIL PRICE WAR IS PAYING OFF</td>
+                          </tr>
+                          <tr>
+                            <td class="mediabox-text">
+                              Deflation might also be coming to the UK - and it could have a huge impact on business....
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#" class="mediabox-readmore">> Read more</a>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                       <td width="10"></td>
                     </tr>
-                    <tr class="commentary-cell" height="10">
-                      <td width="10"></td>
-                      <td></td>
+                    <tr height="10">
                       <td width="10"></td>
                     </tr>
                   </table>
@@ -182,7 +355,7 @@
               <tr>
                 <td width="100%">
                   <table class="mediabox-table">
-                    <tr height="10">
+                    <tr height="20">
                       <td width="10"></td>
                     </tr>
                     <tr>
@@ -190,11 +363,25 @@
                       <td width="105" height="105">
                         <div class="mediabox-image"></div>
                       </td>
-                      <td width="10"></td>
-                      <td class="mediabox-text">
-                        <div>OIL PRICE WAR IS PAYING OFF</div>
-                        <div>Deflation might also be coming to the UK - and it could have a huge impact on business....</div>
-                        <div class="mediabox-readmore">Read more</div>
+                      <td width="15"></td>
+                      <td class="valign-middle">
+                        <table>
+                          <tr>
+                            <td class="mediabox-text mediabox-title">OIL PRICE WAR IS PAYING OFF</td>
+                          </tr>
+                          <tr>
+                            <td class="mediabox-text">
+                              <span class="set-width">
+                                Deflation might also be coming to the UK - and it could have a huge impact on business....
+                              </span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#" class="mediabox-readmore">> Read more</a>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                       <td width="10"></td>
                     </tr>
@@ -212,10 +399,10 @@
         <td>
           <table cellpadding="0" cellspacing="0" border="0" height="134" width="100%">
             <tr>
-              <td class="center" align="center" background="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/c21255f0-0943-4647-b369-e5c8ccb909b6.png" bgcolor="#1e1d20" valign="top">
+              <td class="center" align="center" background="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/885e6231-3a6c-4827-b67f-b2a2de1e547e.png" bgcolor="#1e1d20" valign="top">
                 <!--[if gte mso 9]>
                 <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:205px;">
-                <v:fill type="tile" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/c21255f0-0943-4647-b369-e5c8ccb909b6.png" color="#1e1d20" />
+                <v:fill type="tile" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/885e6231-3a6c-4827-b67f-b2a2de1e547e.png" color="#1e1d20" />
                 <v:textbox inset="0,0,0,0">
                 <![endif]-->
                 <center>
@@ -228,25 +415,28 @@
                     </tr>
                     <tr>
                       <td align="center">
-                        <table class="block-grid social-table">
+                        <table class="social-table">
                           <tr>
                             <td>
                               <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
-                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/b5c07022-949c-4035-a297-2a1f3f28ed24.png" alt="" />
+                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/b5c07022-949c-4035-a297-2a1f3f28ed24.png" alt="Facebook" />
                               </a>
                             </td><td> <!-- Make sure the tags are directly next to each other -->
-                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
-                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/d46be780-c557-4df9-9736-481127a3ae15.png" alt="" />
+                              <a href="https://twitter.com/bullion_capital">
+                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/d46be780-c557-4df9-9736-481127a3ae15.png" alt="Twitter" />
                               </a>
                             </td><td> <!-- Make sure the tags are directly next to each other -->
-                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
-                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/8e56434d-d48e-40fa-86b7-a1465d7a5072.png" alt="" />
+                              <a href="https://www.linkedin.com/company/bullion-capital">
+                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/8e56434d-d48e-40fa-86b7-a1465d7a5072.png" alt="LinkedIn" />
                               </a>
                             </td><td> <!-- Make sure the tags are directly next to each other -->
-                              <a href="https://www.facebook.com/pages/Bullion-Capital/463679443669129">
-                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/7d46f5b9-a3d4-461f-86d5-de7ebe56e379.png" alt="" />
+                              <a href="mailto:info@bullioncapital.com">
+                                <img height="49" width="49" src="https://gallery.mailchimp.com/a4d389081708a3e7dc5bbc83a/images/7d46f5b9-a3d4-461f-86d5-de7ebe56e379.png" alt="Email" />
                               </a>
                             </td>
+                          </tr>
+                          <tr height="28">
+                            <td></td>
                           </tr>
                         </table>
                       </td>
@@ -261,22 +451,19 @@
             </tr>
           </table>
         </td>
-        <td class="expander"></td>
       </tr>
       <tr class="disclaimer-row">
         <td>
-          <table cellpadding="0" cellspacing="0" border="0" height="204" width="100%">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
             <tr>
               <td class="center disclaimer-text" align="center">
                 <center>
                   <table class="container">
-                    <tr><td height="12"></td></tr>
                     <tr>
-                      <td class="disclaimer-text">
+                      <td class="disclaimer-text small-text ">
                         Disclaimer The information contained in this publication is intended to be general in nature and is not personal financial advice. This is not a solicitation and does not take into account your objectives, financial situation and needs. Before acting on any information you should seek independent financial advice. This publication has been prepared based upon information believed to be reliable. Bullion Capital does not represent that this material is accurate, complete and up to date, and accepts no liability if it is not. This publication reflects the views of the author only and does not necessarily reflect the official view of Bullion Capital.
                       </td>
                     </tr>
-                    <tr><td height="30"></td></tr>
                   </table>
                 </center>
               </td>

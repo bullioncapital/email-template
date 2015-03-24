@@ -11,8 +11,25 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   font-family: "Tahoma";
 }
 
+body, table.body, p, td {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 100;
+}
+
 body, table.body {
   background-color: $body-bg-color;
+}
+
+/* table normalisation from normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
 }
 
 .valign-middle {
@@ -33,10 +50,20 @@ body, table.body {
 
 .header {
   background-color: $header-bg;
-  padding-top: 10px;
+  padding-top: 5px;
+}
+.corner-left{
+  text-align:right;
+}
+.corner-right{
+  text-align:left;
 }
 .logo {
   text-align: center;
+}
+
+.block-grid td {
+  padding:0px;
 }
 
 $market-stats-bg: #2b3246;
@@ -50,7 +77,7 @@ $market-disclaimer: #BBBDC0;
   text-align: center;
   vertical-align: middle;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 25px;
 }
 
@@ -60,20 +87,48 @@ $market-disclaimer: #BBBDC0;
   border-bottom-color: #515050;
 }
 
-.market-stats-table.two-up td{
-  width: 210px;
+
+
+.market-stats>td{
+  padding: 10px 10px 10px 10px;
+}
+
+.bullion-area{
+  line-height:10px;
+}
+.bullion-area td{
+  line-height:13px;
+}
+
+.market-text{
+  color:#939598;
+  font-size:11px;
+}
+
+
+
+.market-stats-table.two-up td {
+  width: 230px;
 }
 
 @media only screen and (max-width: 640px){
-  .market-stats-table.two-up td{
-    width: 270px;
+  .market-stats-table.two-up td {
+    width: 220px !important;
+  }
+}
+@media only screen and (max-width: 520px){
+  .market-stats-table.two-up td {
+    width: 180px !important;
   }
 }
 
+.market-stats-td {
+  background-color: $market-stats-bg;
+}
 
 .market-stats {
-  background-color: $market-stats-bg;
   color: $market-stats-fg;
+  line-height:14px;
 }
 
 .market-title {
@@ -90,6 +145,8 @@ $market-disclaimer: #BBBDC0;
 .market-disclaimer {
   font-size: 10px;
   max-width: 150px;
+  line-height: 10px;
+  color:#ffffff;
 }
 
 $dark-bg: #373539;
@@ -102,7 +159,8 @@ $dark-secondary: #515050;
 
 .breakdown-header {
   color: $dark-fg;
-  font-size: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .breakdown-text {
@@ -110,34 +168,60 @@ $dark-secondary: #515050;
 }
 
 .commentary-title {
-  color: #ffffff;
+  color: #b7b7b7;
 
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
   font-size: 16px;
 }
 
-.commentary-cell {
+.commentary-cell{
+  background:#d2d3d3;
+}
+
+.commentary-text td{
+  color: #808285;
   background: #ffffff;
 }
 
-.commentary-text {
-  color: #939597;
+.small-text {
+  font-size:11px;
+}
+
+.set-width{
+  max-width:150px;
+}
+
+.commentary-common {
+  padding:8px 10px 8px 10px;
+}
+
+.commentary-image {
+  background:#d2d3d3;
 }
 
 .mediabox-table {
+  width:100%;
   background-color: #373539;
+  padding:4px 4px 4px 4px;
 }
 
 $mediabox-image-size: 105px;
 .mediabox-image {
-  background-color: #ffffff;
+  background-color: #d2d3d3;
+  border: 4px solid white;
   width: $mediabox-image-size;
   height: $mediabox-image-size;
 }
 
 .mediabox-text {
-  color: #ffffff;
+  color: #ebebeb;
+  max-width:270px;
+}
+.mediabox-title{
+  font-size:13px;
+  font-weight:bold;
+  color:#ffffff;
 }
 
 .mediabox-readmore {
@@ -156,11 +240,15 @@ $mediabox-image-size: 105px;
   max-width: 280px;
   margin: auto;
 }
+.social-table img{
+  padding:12px;
+}
 
 .disclaimer-row {
- background: #000000;
+ background: #222024;
 }
 
 .disclaimer-text {
   color: #ffffff;
+  padding: 12px 10px 20px 10px
 }
