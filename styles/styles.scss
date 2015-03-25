@@ -57,10 +57,21 @@ th {
 .corner-right{
   text-align:left;
 }
+.corner-left img, .corner-right img{
+   width:7px;
+}
 .logo {
   text-align: center;
 }
-
+.logo-no-image{
+  color: #f05a28;
+  font-family: georgia,times,serif;
+  font-weight: normal;
+  text-decoration: none;
+  border: 0;
+  font-size: 32px;
+  line-height: 33px;
+}
 .block-grid td {
   padding:0px;
 }
@@ -226,8 +237,12 @@ $mediabox-image-size: 105px;
   color:#ffffff;
 }
 
-.mediabox-readmore {
+.mediabox-readmore, a {
   color: $gold;
+}
+
+.mediabox-readmore:hover, a:hover{
+  color:#ffad54!important;
 }
 
 .social-header {
@@ -242,6 +257,11 @@ $mediabox-image-size: 105px;
 .social-table {
   max-width: 280px;
   margin: auto;
+}
+
+.social-table img{
+  color: #2ba6cb;
+  font-size:11px;
 }
 
 .disclaimer-row {
