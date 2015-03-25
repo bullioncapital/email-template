@@ -243,9 +243,6 @@ $mediabox-image-size: 105px;
   max-width: 280px;
   margin: auto;
 }
-.social-table img{
-  padding:12px;
-}
 
 .disclaimer-row {
  background: #222024;
@@ -254,4 +251,8 @@ $mediabox-image-size: 105px;
 .disclaimer-text {
   color: #ffffff;
   padding: 12px 10px 20px 10px
+}
+
+.outlook-fix{
+  background-color:#373539;
 }
