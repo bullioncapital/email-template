@@ -16,7 +16,10 @@ body, table.body, p, td {
   line-height: 18px;
   font-weight: 100;
 }
-
+body.outlook img {
+  width: auto !important;
+  max-width: none !important;
+}
 body, table.body {
   background-color: $body-bg-color;
 }
@@ -209,6 +212,10 @@ $dark-secondary: #515050;
 
 .commentary-image {
   background:#d2d3d3;
+}
+
+.commentary-image img{
+  //width:100%;
 }
 
 .mediabox-table {
