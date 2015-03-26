@@ -6,6 +6,7 @@ var connect = require('gulp-connect');
 var imagemin = require('gulp-imagemin');
 var pngcrush = require('imagemin-pngcrush');
 var sass = require('gulp-sass');
+var replace = require('gulp-replace');
 
 var paths = {
   html: '*.html',
@@ -21,6 +22,7 @@ gulp.task('inline', function() {
     .pipe(inlineCss({
       preserveMediaQueries: true,
     }))
+    .pipe(replace(/mc:hideable=""/g, 'mc:hideable'))
     .pipe(gulp.dest(paths.dist));
 });
 
