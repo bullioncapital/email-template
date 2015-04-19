@@ -1,7 +1,7 @@
 @import "push-pull.scss";
 
-$body-bg-color: #222024;
-$gold: #F7931D;
+$body-bg-color: #e4e4e4;
+$gold: #ffffff;
 $silver: #ffffff;
 $plat: #ffffff;
 
@@ -181,7 +181,7 @@ $dark-secondary: #515050;
 }
 
 .commentary-title {
-  color: #b7b7b7;
+  color: #808285;
 
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
@@ -194,7 +194,7 @@ $dark-secondary: #515050;
 
 .commentary-text td{
   color: #808285;
-  background: #ffffff;
+  background: #ececec;
 }
 
 .small-text {
@@ -249,7 +249,7 @@ $mediabox-image-size: 105px;
 
 .social-header {
   padding-top:34px;
-  color: #ffffff;
+  color: #808285;
   font-size: 30px;
   text-align: center;
   font-family: "Helvetica", "Arial", sans-serif;
