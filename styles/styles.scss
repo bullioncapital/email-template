@@ -11,9 +11,10 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   font-family: "Tahoma";
 }
 
+
 body, table.body, p, td {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 100;
 }
 body.outlook img {
@@ -32,6 +33,10 @@ table {
 td,
 th {
   padding: 0;
+}
+
+.inline-image{
+  float:right;
 }
 
 .valign-middle {
@@ -181,7 +186,7 @@ $dark-secondary: #515050;
 }
 
 .commentary-title {
-  color: #808285;
+  color: #6d6e6e;
 
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
@@ -193,7 +198,7 @@ $dark-secondary: #515050;
 }
 
 .commentary-text td{
-  color: #808285;
+  color: #6d6e6e;
   background: #ececec;
 }
 
@@ -249,7 +254,7 @@ $mediabox-image-size: 105px;
 
 .social-header {
   padding-top:34px;
-  color: #808285;
+  color: #6d6e6e;
   font-size: 30px;
   text-align: center;
   font-family: "Helvetica", "Arial", sans-serif;
